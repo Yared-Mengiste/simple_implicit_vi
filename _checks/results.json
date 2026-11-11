@@ -1,0 +1,94 @@
+{
+  "python": "3.12.13",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.4",
+  "executed_cells": 10,
+  "figures": 3,
+  "figure_files": [
+    "target.png",
+    "dre_progress.png",
+    "comparison.png"
+  ],
+  "total_seconds": 64.21885679000115,
+  "config": {
+    "SEED": 7,
+    "STEPS": 3000,
+    "BATCH": 512,
+    "D_STEPS": 5,
+    "K": 24,
+    "WIDTH": 64,
+    "NOISE_DIM": 4,
+    "LR_G": 0.0002,
+    "LR_D": 0.001,
+    "LR_VI": 0.001,
+    "REF_STD": 3.0,
+    "BETAS": [
+      0.5,
+      0.9
+    ]
+  },
+  "results": [
+    {
+      "method": "Gaussian",
+      "mmd2": 0.137475848197937,
+      "seconds": 4.867395023997233
+    },
+    {
+      "method": "DRE",
+      "mmd2": 0.0010714530944824219,
+      "seconds": 43.15744420899864
+    },
+    {
+      "method": "SIVI",
+      "mmd2": 0.022974133491516113,
+      "seconds": 10.860633675998542
+    }
+  ],
+  "dre_snapshot_updates": [
+    0,
+    1500,
+    3000
+  ],
+  "cell_times": [
+    {
+      "execution_count": 1,
+      "seconds": 1.5819054180028616
+    },
+    {
+      "execution_count": 2,
+      "seconds": 0.5943809140007943
+    },
+    {
+      "execution_count": 3,
+      "seconds": 0.0007885180020821281
+    },
+    {
+      "execution_count": 4,
+      "seconds": 6.679693494996172
+    },
+    {
+      "execution_count": 5,
+      "seconds": 0.00021869899501325563
+    },
+    {
+      "execution_count": 6,
+      "seconds": 0.000622117004240863
+    },
+    {
+      "execution_count": 7,
+      "seconds": 43.592495044002135
+    },
+    {
+      "execution_count": 8,
+      "seconds": 0.0007253889998537488
+    },
+    {
+      "execution_count": 9,
+      "seconds": 10.862256217005779
+    },
+    {
+      "execution_count": 10,
+      "seconds": 0.8825298320007278
+    }
+  ]
+}

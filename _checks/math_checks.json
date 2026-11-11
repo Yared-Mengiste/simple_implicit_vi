@@ -1,0 +1,7 @@
+{
+  "reference_density": "passed",
+  "frozen_ratio_entropy_gradient_max_error": 5.960464477539063e-08,
+  "sivi_K0": "passed",
+  "executed_code_cells": 10,
+  "notebook_structure": "passed"
+}

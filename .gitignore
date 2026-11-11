@@ -1,0 +1,9 @@
+# Notebook tooling and editable findings source
+_tools/
+Findings_One_Page.md
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
